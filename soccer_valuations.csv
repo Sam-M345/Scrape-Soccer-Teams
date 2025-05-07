@@ -1,0 +1,26 @@
+rank,team,country,league,value_usd_bln,revenue_usd_bln,ebitda_usd_bln,debt_pct_value,owners
+1,Real Madrid,Spain,La Liga,6.7,1.13,0.125,19.0,Club members
+2,Manchester United,England,Premier League,6.0,0.834,0.186,11.0,"The Glazer family, Sir Jim Ratcliffe"
+3,Barcelona,Spain,La Liga,5.65,0.822,0.066,32.0,Club members
+4,Liverpool,England,Premier League,5.4,0.774,0.076,3.0,"John Henry, Tom Werner"
+5,Manchester City,England,Premier League,5.2,0.902,0.148,0.0,Sheikh Mansour bin Zayed Al Nahyan
+6,Bayern Munich,Germany,Bundesliga,5.1,0.828,0.068,0.0,Club members
+7,Paris Saint-Germain,France,Ligue 1,4.55,0.873,0.035,1.0,"Qatar Sports Investments, Arctos Partners"
+8,Arsenal,England,Premier League,4.0,0.772,0.174,1.0,Stan Kroenke
+9,Tottenham Hotspur,England,Premier League,3.55,0.665,0.184,31.0,"Joseph Lewis Family Trust, Daniel Levy"
+10,Chelsea,England,Premier League,3.5,0.591,0.029,0.0,"Todd Boehly, Clearlake Capital, Mark Walter"
+11,Borussia Dortmund,Germany,Bundesliga,2.3,0.551,0.045,2.0,Borussia Dortmund KGaA
+12,Atlético de Madrid,Spain,La Liga,2.1,0.442,0.046,17.0,"Miguel Gil, Ares Management, Idan Ofer"
+13,Juventus,Italy,Serie A,2.0,0.39,0.043,1.0,The Agnelli family
+14,Newcastle United,England,Premier League,1.3,0.4,0.039,5.0,"Saudi Arabia Public Investment Fund, RB Sports & Media"
+15,Inter Milan,Italy,Serie A,1.25,0.423,0.044,33.0,Oaktree Capital Management
+16,AC Milan,Italy,Serie A,1.2,0.43,0.071,2.0,"Redbird Capital Partners, Yankee Global Enterprises"
+17,West Ham United,England,Premier League,1.1,0.349,0.07,0.0,"David Sullivan, Daniel Křetínský, Gold family trust"
+18,Aston Villa,England,Premier League,1.09,0.335,0.06,0.0,"Nassef Sawiris, Wes Edens, Michael Angelakis"
+19,Fulham FC,England,Premier League,1.08,0.229,0.013,15.0,Shahid Khan
+20,Los Angeles FC,United States,Major League Soccer,1.05,0.155,0.013,17.0,"Bennett Rosenthal, Brandon Beck, Larry Berg"
+21,Los Angeles Galaxy,United States,Major League Soccer,1.03,0.107,0.003,0.0,Philip Anschutz
+22,Inter Miami,United States,Major League Soccer,1.0,0.185,0.05,20.0,"David Beckham, Jorge Mas, Jose Mas"
+23,Eintracht Frankfurt,Germany,Bundesliga,0.93,0.267,0.06,5.0,Club members
+24,Brighton and Hove Albion,England,Premier League,0.92,0.279,0.012,0.0,Tony Bloom
+25,Napoli,Italy,Serie A,0.91,0.276,0.093,4.0,Aurelio De Laurentiis
