@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+pandas
+lxml
+pytest
+responses
+# Optional, as per TDD plan:
+# tenacity
+# typing
+# mypy
+# playwright
+# selenium
+# ruff 
