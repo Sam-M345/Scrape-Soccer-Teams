@@ -6,6 +6,7 @@ def fetch_html(url: str, timeout: int = 10) -> str:
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
     try:
+        # This is the core network call that retrieves the HTML from the URL
         r = requests.get(url, timeout=timeout, headers=headers)
         r.raise_for_status()  # Raises an HTTPError for bad responses (4XX or 5XX)
         return r.text
