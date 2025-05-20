@@ -39,7 +39,7 @@ def process_valuations():
                 print(f"DataFrame shape: {df_valuations.shape}")
 
                 # Display the DataFrame as a Rich table
-                console = Console()
+                console = Console(record=True) # Enable recording for HTML export
                 rich_table = Table(title="Soccer Club Valuations", show_header=True, header_style="bold magenta", show_lines=True)
 
                 # Define column styles for better readability (optional)
@@ -85,6 +85,15 @@ def process_valuations():
                 
                 console.print("\nGlobal Teams 🌐:")
                 console.print(rich_table)
+
+                # Export the Rich table to an HTML file
+                try:
+                    html_output_filename = "rich_table_output.html"
+                    html_output_path = PROJECT_ROOT / html_output_filename
+                    console.save_html(str(html_output_path))
+                    print(f"Rich table also saved to: {html_output_path}")
+                except Exception as e_html:
+                    print(f"Error saving Rich table as HTML: {e_html}")
 
             elif df_valuations is None:
                 print("Parsing returned None. Could not create DataFrame.")
