@@ -17,4 +17,4 @@ def fetch_html(url: str, timeout: int = 10) -> str:
     except Exception as err:
         # In a real app, you might want to log this or raise a custom exception
         print(f"Other error occurred: {err}")
-        raise 
+        raise
