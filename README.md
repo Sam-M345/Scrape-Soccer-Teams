@@ -6,13 +6,22 @@ A Python script that scrapes global soccer team valuation data from a specific C
 2.  Displays a well-formatted, left-aligned table of the same data directly in the terminal using the Rich library.
 3.  Exports the Rich-formatted table to an HTML file (`rich_table_output.html`) for browser viewing.
 
-## Tech Stack
+## Tech Stack & Tools
 
-- Python
-- Requests
-- Beautiful Soup 4 (with lxml parser)
-- Pandas
-- Rich
+### Core Script Libraries:
+
+- **Python 3.x**: The primary programming language.
+- **Requests**: For making HTTP requests to fetch web content.
+- **Beautiful Soup 4 (bs4)**: For parsing HTML (used with the `lxml` parser).
+- **Pandas**: For structuring data into DataFrames.
+- **Rich**: For creating formatted terminal output and exporting HTML tables.
+
+### Development & Project Management:
+
+- **Git**: For version control.
+- **GitHub**: For repository hosting, collaboration, and project visibility.
+- **Markdown**: For documentation (`README.md`, `Design Docs/TDD.md`).
+- **(Optional) Windows Batch Script**: Used for generating the file tree document (`MakeTree_Put this at root.bat`).
 
 ## Data Source
 
